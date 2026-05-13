@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <style>
+    .node{fill:#fff;stroke:#0f766e;stroke-width:4}
+    .center{fill:#0f766e;stroke:#0f766e}
+    .line{fill:none;stroke:#334155;stroke-width:4;marker-end:url(#arrow)}
+    .label{font:700 28px Arial,"Microsoft YaHei",sans-serif;fill:#0f172a}
+    .text{font:700 24px Arial,"Microsoft YaHei",sans-serif;fill:#0f172a;text-anchor:middle}
+    .white{fill:#fff}
+    .note{font:20px Arial,"Microsoft YaHei",sans-serif;fill:#475569;text-anchor:middle}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <text x="44" y="52" class="label">无机推断关系图</text>
+  <circle class="node center" cx="480" cy="210" r="58"/>
+  <text class="text white" x="480" y="218">A</text>
+  <circle class="node" cx="230" cy="120" r="54"/>
+  <text class="text" x="230" y="128">B</text>
+  <circle class="node" cx="730" cy="120" r="54"/>
+  <text class="text" x="730" y="128">C</text>
+  <circle class="node" cx="250" cy="310" r="54"/>
+  <text class="text" x="250" y="318">D</text>
+  <circle class="node" cx="710" cy="310" r="54"/>
+  <text class="text" x="710" y="318">E</text>
+  <path class="line" d="M280 136 L420 190"/>
+  <path class="line" d="M540 190 L680 136"/>
+  <path class="line" d="M428 238 L302 292"/>
+  <path class="line" d="M532 238 L660 292"/>
+  <path class="line" d="M305 310 H655"/>
+  <text class="note" x="350" y="142">加稀盐酸有气泡</text>
+  <text class="note" x="610" y="142">加 NaOH 生成沉淀</text>
+  <text class="note" x="360" y="292">灼烧后变黑</text>
+  <text class="note" x="604" y="292">遇 KSCN 显血红色</text>
+  <text class="note" x="480" y="348">氧化还原转化</text>
+</svg>

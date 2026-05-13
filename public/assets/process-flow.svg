@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <style>
+    .box{fill:#fff;stroke:#0f766e;stroke-width:4;rx:14}
+    .side{fill:#ecfeff;stroke:#0f766e;stroke-width:3;rx:12}
+    .line{fill:none;stroke:#334155;stroke-width:4;marker-end:url(#arrow)}
+    .label{font:700 28px Arial,"Microsoft YaHei",sans-serif;fill:#0f172a}
+    .text{font:700 23px Arial,"Microsoft YaHei",sans-serif;fill:#0f172a;text-anchor:middle}
+    .note{font:19px Arial,"Microsoft YaHei",sans-serif;fill:#475569;text-anchor:middle}
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <text x="44" y="52" class="label">工艺流程题流程图</text>
+  <rect class="box" x="60" y="150" width="130" height="82"/>
+  <text class="text" x="125" y="184">矿样</text>
+  <text class="note" x="125" y="214">含 Fe2+</text>
+  <rect class="box" x="250" y="150" width="130" height="82"/>
+  <text class="text" x="315" y="184">酸浸</text>
+  <text class="note" x="315" y="214">进入溶液</text>
+  <rect class="box" x="440" y="150" width="130" height="82"/>
+  <text class="text" x="505" y="184">氧化</text>
+  <text class="note" x="505" y="214">Fe2+ → Fe3+</text>
+  <rect class="box" x="630" y="150" width="130" height="82"/>
+  <text class="text" x="695" y="184">调 pH</text>
+  <text class="note" x="695" y="214">除铁</text>
+  <rect class="box" x="800" y="150" width="110" height="82"/>
+  <text class="text" x="855" y="184">产品</text>
+  <text class="note" x="855" y="214">结晶</text>
+  <path class="line" d="M190 191 H250"/>
+  <path class="line" d="M380 191 H440"/>
+  <path class="line" d="M570 191 H630"/>
+  <path class="line" d="M760 191 H800"/>
+  <rect class="side" x="430" y="282" width="150" height="58"/>
+  <text class="text" x="505" y="318">氧化剂</text>
+  <path class="line" d="M505 282 V234"/>
+  <rect class="side" x="610" y="282" width="170" height="58"/>
+  <text class="text" x="695" y="318">Fe(OH)3 滤渣</text>
+  <path class="line" d="M695 232 V282"/>
+</svg>

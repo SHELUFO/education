@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "cacheDir": "data/source-cache",
+  "policy": {
+    "priority": "近十年高考化学试卷优先；只缓存官方、学校授权、机构自有或明确可使用来源。",
+    "copyright": "缓存原始文件用于本地审校和题源台账；进入商业题库前必须记录授权/版权状态和审校状态。"
+  },
+  "sources": [
+    {
+      "id": "jiangsu-2019-chemistry",
+      "exam": "高考",
+      "year": 2019,
+      "region": "江苏",
+      "paperName": "2019年江苏高考化学试题",
+      "url": "https://www.jseea.cn/webfile/upload/old/contents/channel_6/2019/06/1906101336150%282%29.pdf",
+      "sourceType": "official_pdf",
+      "copyrightStatus": "official_public_cache_for_review",
+      "priority": 90,
+      "notes": "官方考试院 PDF，作为下载缓存流程样例。"
+    },
+    {
+      "id": "doczj-2017-chemistry-national-candidate",
+      "exam": "高考",
+      "year": 2017,
+      "region": "全国/广东使用卷候选",
+      "paperName": "高考真题化学全国卷候选文本页",
+      "url": "https://www.wendangmiao.com/doc/5912392746.html",
+      "sourceType": "third_party_html_candidate",
+      "copyrightStatus": "candidate_not_for_commercial_import",
+      "fileType": "html",
+      "priority": 20,
+      "focusStart": "全国统一高考化学试卷（全国卷Ⅰ）一、选择题",
+      "focusEnd": "全国统一高考化学试卷（全国卷Ⅰ）参考答案",
+      "notes": "可访问 HTML 候选页，但来源非官方；仅用于测试文本拆题流程，不得直接进入商业题库。"
+    }
+  ]
+}

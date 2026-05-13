@@ -1,0 +1,23 @@
+{
+  "name": "chem-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "独立版化学连接学习网页应用",
+  "scripts": {
+    "build:data": "node scripts/build-data.js",
+    "questions:expand": "node scripts/expand-question-bank.js",
+    "questions:expand-advanced": "node scripts/expand-advanced-question-bank.js",
+    "questions:expand-commercial": "node scripts/expand-commercial-question-bank.js",
+    "gaokao:cache-pdfs": "node scripts/cache-gaokao-pdfs.js",
+    "mysql:dump": "node scripts/create-mysql-dump.js",
+    "release:build": "node scripts/build-release.js",
+    "sources:cache": "node scripts/cache-exam-sources.js",
+    "sources:extract": "C:\\Users\\ASUS\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe scripts/extract-exam-questions.py",
+    "start": "node server.js",
+    "verify:runtime": "node scripts/verify-browser-runtime.js",
+    "verify": "node scripts/verify.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

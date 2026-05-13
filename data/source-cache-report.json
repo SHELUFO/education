@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-05-11T16:38:32.604Z",
+  "total": 2,
+  "cached": 2,
+  "failed": 0,
+  "results": [
+    {
+      "id": "jiangsu-2019-chemistry",
+      "exam": "高考",
+      "year": 2019,
+      "region": "江苏",
+      "paperName": "2019年江苏高考化学试题",
+      "url": "https://www.jseea.cn/webfile/upload/old/contents/channel_6/2019/06/1906101336150%282%29.pdf",
+      "sourceType": "official_pdf",
+      "copyrightStatus": "official_public_cache_for_review",
+      "cachedPath": "data/source-cache/jiangsu-2019-chemistry.pdf",
+      "bytes": 1549477,
+      "sha256": "c7eda3fd0bc332a68baf09107049fdce99615a81b1fda609269f92cf53568890",
+      "contentType": "application/pdf",
+      "downloadedAt": "2026-05-11T16:38:31.261Z",
+      "status": "cached"
+    },
+    {
+      "id": "doczj-2017-chemistry-national-candidate",
+      "exam": "高考",
+      "year": 2017,
+      "region": "全国/广东使用卷候选",
+      "paperName": "高考真题化学全国卷候选文本页",
+      "url": "https://www.wendangmiao.com/doc/5912392746.html",
+      "sourceType": "third_party_html_candidate",
+      "copyrightStatus": "candidate_not_for_commercial_import",
+      "cachedPath": "data/source-cache/doczj-2017-chemistry-national-candidate.html",
+      "bytes": 37122,
+      "sha256": "d21fb7f6875a51baa7a3460f6d284bc165648673789b6b239e85a8106f57fe51",
+      "contentType": "text/html; charset=utf-8",
+      "downloadedAt": "2026-05-11T16:38:32.094Z",
+      "status": "cached"
+    }
+  ]
+}

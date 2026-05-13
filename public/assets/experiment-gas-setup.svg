@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <style>
+    .line{fill:none;stroke:#0f172a;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+    .thin{fill:none;stroke:#334155;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .label{font:700 28px Arial,"Microsoft YaHei",sans-serif;fill:#0f172a}
+    .small{font:22px Arial,"Microsoft YaHei",sans-serif;fill:#334155}
+    .liquid{fill:#99f6e4;opacity:.75}
+    .glass{fill:#e0f2fe;opacity:.35;stroke:#0f172a;stroke-width:4}
+  </style>
+  <text x="44" y="52" class="label">气体制取、除杂与检验装置</text>
+  <path class="glass" d="M105 130 h150 l-22 210 h-106z"/>
+  <path class="liquid" d="M127 260 h106 l-9 80 h-88z"/>
+  <circle cx="151" cy="286" r="8" fill="#475569"/>
+  <circle cx="183" cy="306" r="8" fill="#475569"/>
+  <text x="98" y="376" class="small">A：制气瓶</text>
+  <path class="line" d="M255 175 C330 175 332 118 400 118"/>
+  <path class="glass" d="M398 108 h122 v190 h-122z"/>
+  <path class="liquid" d="M405 214 h108 v84 h-108z"/>
+  <path class="thin" d="M432 108 v150"/>
+  <path class="thin" d="M488 108 v78"/>
+  <text x="396" y="334" class="small">B：洗气/除杂</text>
+  <path class="line" d="M520 145 C590 145 592 100 660 100"/>
+  <path class="glass" d="M660 92 h136 v216 h-136z"/>
+  <path class="liquid" d="M668 230 h120 v78 h-120z"/>
+  <path class="thin" d="M704 92 v164"/>
+  <path class="thin" d="M760 92 v86"/>
+  <text x="654" y="344" class="small">C：检验/吸收</text>
+  <path class="line" d="M796 142 C842 142 850 164 890 164"/>
+  <path class="thin" d="M880 146 l26 18 l-26 18"/>
+  <text x="812" y="220" class="small">尾气处理</text>
+  <text x="96" y="100" class="small">稀盐酸 + 固体样品</text>
+  <text x="396" y="86" class="small">长进短出</text>
+  <text x="650" y="70" class="small">现象记录</text>
+</svg>
