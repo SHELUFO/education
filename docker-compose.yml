@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5188:5188"
+    volumes:
+      - ./chem/data:/app/data
+      - ./chem/public:/app/public
+    environment:
+      - NODE_ENV=production
+      - PORT=5188
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: mysql:8.0
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_DATABASE=chem_web_internal
+      - MYSQL_USER=chem_user
+      - MYSQL_PASSWORD=chem_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./chem/data/mysql:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+volumes:
+  mysql_data:

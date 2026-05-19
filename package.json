@@ -1,0 +1,44 @@
+{
+  "name": "education",
+  "version": "1.0.0",
+  "private": true,
+  "description": "教育项目 - 化学和数学学习平台",
+  "workspaces": [
+    "chem",
+    "math"
+  ],
+  "scripts": {
+    "start:chem": "cd chem && npm start",
+    "verify:chem": "cd chem && npm run verify",
+    "build:data:chem": "cd chem && npm run build:data",
+    "mysql:dump:chem": "cd chem && npm run mysql:dump",
+    "release:build:chem": "cd chem && npm run release:build",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/education.git"
+  },
+  "keywords": [
+    "education",
+    "chemistry",
+    "math",
+    "learning",
+    "quiz"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/your-username/education/issues"
+  },
+  "homepage": "https://github.com/your-username/education#readme",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
